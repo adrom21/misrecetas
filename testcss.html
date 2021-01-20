@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <title>Test CSS</title>
     <style>
-        div {background-color: red;}
-        div > p {background-color: blue;}
-        /*p {background-color: red;}*/
+        .box-blue, .box-red {
+            display: block;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        .box-blue {
+            background-color: blue;
+        }
+        .box-red {
+            background-color: red;
+        }
+        .box {
+            display: block;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .box-blue {
+            background-color: blue;
+        }
+        .box-green {
+            background-color: green;
+        }
+
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, natus?</span>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, magnam!</p>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, eius?</span>
+        <p>hijo</p>
         <span>
             <p>segundo P</p>
         </span>
     </div>
+    <div class="box-blue">caja azul</div>
+    <div class="box-red">caja roja</div>
+    <div class="box box-blue">caja</div>
 </body>
 </html>
