@@ -8,14 +8,25 @@
 
 .caja1 {
     position: relative;
-    top: 10px;
+
     background-color: greenyellow;
 }
+
 .caja2 {
     position: relative;
-    left: 200px;
     background-color: blue;
 }
+
+.hijo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    top: 0 ;
+    left: 0;
+}
+
+
 .caja3 {
     position: relative;
     right: 200px;
