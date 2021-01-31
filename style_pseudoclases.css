@@ -1,0 +1,16 @@
+div.hover {
+    background-color: brown;
+    color: white; 
+}
+
+div.hover:hover {
+    background-color: blue;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
