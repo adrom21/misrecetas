@@ -1,3 +1,4 @@
+/*
 .caja {
     background-color: red;
     color: white;
@@ -5,6 +6,8 @@
     border:1px solid black;
    
 }
+*/
+
 /* position absolute
 .caja1 {
     position: relative;
@@ -37,10 +40,30 @@
 }
 */
 
+/*
 .caja1 {
     position: sticky;
     top: 0;
     width: 500px;
     height: 20px;
     background-color: blueviolet;
+}
+*/
+
+.block {
+    display: block;
+    background-color: blueviolet;
+}
+
+.inline {
+    display: inline;
+    background-color: burlywood;
+    margin-right: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: coral;
+    margin-top: 10px;
+    height: 50px;
 }
