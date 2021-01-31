@@ -1,0 +1,26 @@
+.caja {
+    background-color: red;
+    color: white;
+    padding: 1em;
+    border:1px solid black;
+   
+}
+
+.caja1 {
+    position: relative;
+    top: 10px;
+    background-color: greenyellow;
+}
+.caja2 {
+    position: relative;
+    left: 200px;
+    background-color: blue;
+}
+.caja3 {
+    position: relative;
+    right: 200px;
+    background-color: crimson;
+}
+.caja4 {
+    background-color: darkorange;
+}
