@@ -46,6 +46,7 @@ button {
     width: 600px;
     flex-direction: row;
     flex-wrap: wrap;
+    /*align-items: center; --> alinear una solo línea*/
     /*justify-content: space-evenly;*/
     align-content: flex-start;
 }
@@ -55,4 +56,24 @@ button {
     background-color: white;
     width: 200px;
     height: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.grow {
+    flex-grow: 3;
+}
+
+.shrink {
+    flex-shrink: 4;
+}
+
+.basis {
+    flex-basis: ;
+}
+
+.abajo
+{
+    align-self: flex-end;
 }

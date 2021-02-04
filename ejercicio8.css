@@ -1,0 +1,19 @@
+.padre {
+    background-color: tomato;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    overflow-x: scroll;
+   
+   
+  
+}
+
+.hijo {
+    background-color: teal;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    
+}
